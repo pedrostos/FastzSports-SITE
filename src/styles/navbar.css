@@ -1,0 +1,87 @@
+.header {
+    background-color: rgb(209, 195, 195);
+    box-shadow: 1px 2px 3px rgb(94, 91, 91);
+}
+
+.navbar {
+    display: flex;
+    padding: 1rem 3rem;
+    align-items: center;
+}
+
+.menu {
+    display: flex;
+    align-items: center;
+}
+
+.menu ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+}
+    
+
+.navitem a:hover {
+    color: rgb(153, 148, 148);
+}
+
+.navitem a {
+    display: inline-flex;
+    margin: 0 15px;
+    text-decoration: none;
+    padding: 1% 2% 1% 2%;
+    color: rgb(52, 108, 146);
+    font-family: 'Playfair Display', serif;
+    font-size: larger;
+}
+
+button {
+    background-color: transparent;
+    border: 0;
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+.menumobile {
+    display: none;
+}
+
+.imgbotao{
+    display: none;
+}
+
+.menumobile .navitem {
+    display: none;
+}
+
+@media (max-width:900px) {
+    .navitem {
+        display: none;
+    } 
+    
+    .imgbotao {
+        display: block;
+        width: 30px;
+        height: 20px;
+        background-color: transparent;
+    }
+
+.menumobile ul {
+    display: flex;
+    flex-direction: column;
+    
+    padding-bottom: 1rem;
+}
+
+.menumobile .navitem {
+    display: block;
+
+}
+
+.open {
+    display: block;
+}
+
+}
