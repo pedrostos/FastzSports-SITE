@@ -39,9 +39,6 @@
 button {
     background-color: transparent;
     border: 0;
-}
-
-button:hover {
     cursor: pointer;
 }
 
@@ -76,7 +73,6 @@ button:hover {
 .menumobile ul {
     display: flex;
     flex-direction: column;
-    
     padding-bottom: 1rem;
 }
 
@@ -88,5 +84,4 @@ button:hover {
 .open {
     display: block;
 }
-
 }
