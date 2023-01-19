@@ -1,0 +1,46 @@
+.containerProducts {
+    display: flex;
+    margin: 0 auto;
+    margin-top: 2%;
+    width: 100%;
+    background-color: rgb(168, 167, 167);
+    flex-wrap: wrap;
+    justify-content: center;
+    flex: 0 0;
+}
+
+.titleProduct {
+    width: 100%;
+}
+
+.product {
+    background-color: transparent;
+    width: 400px;
+    height: 20em;
+    margin: 1%;
+    display: flex;
+    flex-direction: column;
+    cursor: pointer;
+    justify-content: center;
+}
+
+.product:hover {
+    box-shadow: 2px 2px 2px 2px rgb(78, 78, 78);
+}
+
+.descriptionProduct {
+    display: flex;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    justify-content: center;
+    margin-top: 5%;
+}
+
+
+.img {
+    width: 70%;
+    height: 80%;
+    top: 0;
+    justify-content: center;
+    display: flex;
+}

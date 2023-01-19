@@ -6,4 +6,5 @@ html, body, #root {
   background-color: rgb(190, 190, 190);
   font-family: sans-serif;
   min-height: 100vh;
+  align-items: stretch;
 }

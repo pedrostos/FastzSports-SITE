@@ -20,7 +20,7 @@ function Navbar(){
                     <div className="menu">
                     <ul>
                         <li className="navitem"><Link to="/">Home</Link></li>
-                        <li className="navitem"><Link to="/products">Products</Link></li>
+                        <li className="navitem"><Link to="/products.jsx">Products</Link></li>
                     </ul>
                     </div><div className="botaomobile">
                         <button onClick={menuShow}><img src ={MobileButton} alt='' className="imgbotao"/></button>
