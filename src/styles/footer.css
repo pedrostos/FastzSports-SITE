@@ -1,0 +1,46 @@
+.foot {
+    display: flex;
+    background-color: rgb(255, 255, 255);
+    justify-content: flex-end;
+    margin-top: 1%;
+    box-shadow: 0 0 0 2px rgb(82, 81, 81);
+}
+
+footer ul{
+    display: flex;
+    text-align: right;
+}
+
+footer ul li {
+    display: flex;
+    justify-content: flex-end;
+    list-style: none;
+    font-size: 1.5em;
+    
+    align-items: center;
+}
+
+footer span {
+    display: flex;
+    align-items: center;
+    color: rgb(0, 0, 0);
+}
+
+.instaf {
+    color:  rgb(0, 0, 0);
+    cursor: pointer;
+}
+
+.facef {
+    color:  rgb(0, 0, 0);
+    cursor: pointer;
+}
+
+footer ul {
+    display: flex;
+    margin-right: 5%;
+}
+
+@media (max-width: 600px) {
+    
+}

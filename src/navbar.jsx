@@ -14,8 +14,8 @@ function Navbar(){
     return (
         <header className="header">
                 <nav className="navbar">
-                    <div className="divcore">
-                        <Link to="/"><img src={Logo} alt='' width="15%"/></Link>
+                    <div className="divlogo">
+                        <Link to="/"><img src={Logo} alt='' className='imglogo' width="15%"/></Link>
                     </div>
                     <div className="menu">
                     <ul>

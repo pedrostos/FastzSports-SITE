@@ -1,5 +1,5 @@
 .header {
-    background-color: rgb(209, 195, 195);
+    background-color: rgb(255, 255, 255);
     box-shadow: 1px 2px 3px rgb(94, 91, 91);
 }
 
@@ -22,7 +22,8 @@
     
 
 .navitem a:hover {
-    color: rgb(153, 148, 148);
+    color: rgb(65, 183, 238);
+    text-shadow: 2px 1px blue;
 }
 
 .navitem a {
@@ -30,7 +31,7 @@
     margin: 0 15px;
     text-decoration: none;
     padding: 1% 2% 1% 2%;
-    color: rgb(52, 108, 146);
+    color: rgb(0, 0, 0);
     font-family: 'Playfair Display', serif;
     font-size: larger;
 }
@@ -56,7 +57,11 @@ button:hover {
     display: none;
 }
 
-@media (max-width:900px) {
+@media (max-width:700px) {
+    .imglogo {
+        width: 30%;
+    }
+
     .navitem {
         display: none;
     } 

@@ -4,6 +4,8 @@ import './styles/App.css'
 import Navbar from './navbar.jsx'
 import {BrowserRouter as Router, Routes, Route} from 'react-router-dom'
 import Home from './home.jsx'
+import Footer from './footer.jsx'
+import Containerzudo from './containerzudo.jsx'
 
 function App() {
 
@@ -11,9 +13,12 @@ function App() {
       <>
       <Router>
         <Navbar />
+          <Containerzudo customClass="min-height">
           <Routes>
           <Route exact path="/" element={<Home />} > </Route>
           </Routes>
+          </Containerzudo>
+          <Footer />
       </Router>
       
       

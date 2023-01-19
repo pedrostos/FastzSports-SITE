@@ -1,0 +1,266 @@
+.container {
+    display: flex;
+    box-shadow: 4px 5px 2px rgb(78, 78, 78);
+    width: 90%;
+    margin: 0 auto;
+    margin-top: 1%;
+    height: 450px;
+}
+
+.subcontainer1 {
+    width: 70%;
+    display: flex;
+
+    
+}
+
+.walking {
+    width: 100%;}
+
+
+
+.subcontainer2 {
+    background-color: rgb(11, 151, 245);
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    
+}
+
+.texto2 {
+    justify-content: center;
+    margin-top: 30%;
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 50px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+
+.insta {
+    font-size: 100px;
+    margin: 40px;
+    cursor: pointer;
+}
+
+.face {
+    font-size: 100px;
+    margin: 40px;
+    cursor: pointer;
+}
+
+@media (max-width: 700px) {
+.container {
+    display: flex;
+    box-shadow: 4px 5px 2px rgb(78, 78, 78);
+    width: 100%;
+    margin: 0 auto;
+    margin-top: 15%;
+    flex-wrap: wrap;
+    height: 70vh;
+}
+
+.subcontainer1 {
+    width: 100%;
+    display: flex;
+    box-shadow: 0 0 0 4px rgb(97, 96, 96);
+
+    
+}
+
+.walking {
+    width: 100%;}
+
+
+
+.subcontainer2 {
+    background-color: rgb(11, 151, 245);
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    box-shadow: 4px 5px 2px rgb(78, 78, 78);
+    
+}
+
+.texto2 {
+    justify-content: center;
+    margin-top: 30%;
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 30px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+
+.insta {
+    font-size: 50px;
+    margin: 40px;
+    cursor: pointer;
+}
+
+.face {
+    font-size: 50px;
+    margin: 40px;
+    cursor: pointer;
+}
+}
+
+@media (min-width: 701px) {
+    .container {
+        display: flex;
+        box-shadow: 4px 5px 2px rgb(78, 78, 78);
+        width: 90%;
+        margin: 0 auto;
+        margin-top: 4%;
+        height: 70vh;
+    }
+    
+    .subcontainer1 {
+        width: 70%;
+        display: flex;
+    
+        
+    }
+    
+    .walking {
+        width: 100%;}
+    
+    
+    
+    .subcontainer2 {
+        background-color: rgb(11, 151, 245);
+        width: 40%;
+        display: flex;
+        justify-content: center;
+        
+    }
+    
+    .texto2 {
+        justify-content: center;
+        margin-top: 50%;
+        display: flex;
+        font-size: 40px;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    
+    }
+    
+    .insta {
+        font-size: 60px;
+        margin: 30px;
+        cursor: pointer;
+    }
+    
+    .face {
+        font-size: 60px;
+        margin: 30px;
+        cursor: pointer;
+    }
+    }
+
+@media (min-width: 1366px) {
+    .container {
+        display: flex;
+        box-shadow: 4px 5px 2px rgb(78, 78, 78);
+        width: 90%;
+        margin: 0 auto;
+        margin-top: 3%;
+        max-width: 1500px;
+        height: 70vh;
+    }
+    
+    .subcontainer1 {
+        width: 70%;
+        display: flex;
+    
+        
+    }
+    
+    .walking {
+        width: 100%;}
+    
+    
+    
+    .subcontainer2 {
+        background-color: rgb(11, 151, 245);
+        width: 40%;
+        display: flex;
+        justify-content: center;
+        
+    }
+    
+    .texto2 {
+        justify-content: center;
+        margin-top: 30%;
+        display: flex;
+        flex-wrap: wrap;
+        font-size: 50px;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    
+    }
+    
+    .insta {
+        font-size: 100px;
+        margin: 40px;
+        cursor: pointer;
+    }
+    
+    .face {
+        font-size: 100px;
+        margin: 40px;
+        cursor: pointer;
+    }
+}
+
+@media (min-width: 1500px) {
+    .container {
+        display: flex;
+        box-shadow: 4px 5px 2px rgb(78, 78, 78);
+        width: 90%;
+        margin: 0 auto;
+        margin-top: 3%;
+        max-width: 1500px;
+        height: 70vh;
+    }
+    
+    .subcontainer1 {
+        width: 70%;
+        display: flex;
+    
+        
+    }
+    
+    .walking {
+        width: 100%;}
+    
+    
+    
+    .subcontainer2 {
+        background-color: rgb(11, 151, 245);
+        width: 40%;
+        display: flex;
+        justify-content: center;
+        
+    }
+    
+    .texto2 {
+        justify-content: center;
+        margin-top: 40%;
+        display: flex;
+        flex-wrap: wrap;
+        font-size: 60px;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    
+    }
+    
+    .insta {
+        font-size: 100px;
+        margin: 45px;
+        cursor: pointer;
+    }
+    
+    .face {
+        font-size: 100px;
+        margin: 45px;
+        cursor: pointer;
+    }
+}
