@@ -12,7 +12,7 @@ function Home() {
             </div>
             <div className='subcontainer2'>
                 <div>
-                <h1 className='texto2'>#SEJAUMFASTZ</h1>
+                <h1 className='texto2'>#BEAFASTZ</h1>
                     <FaInstagram className='insta' />
                     <FaFacebook className='face' />
                 </div>

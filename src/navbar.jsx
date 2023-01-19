@@ -19,9 +19,8 @@ function Navbar(){
                     </div>
                     <div className="menu">
                     <ul>
-                        <li className="navitem"><Link to="/">Inicio</Link></li>
-                        <li className="navitem"><Link to="/products">Produtos</Link></li>
-                        <li className="navitem"><Link to="/">Contato</Link></li>
+                        <li className="navitem"><Link to="/">Home</Link></li>
+                        <li className="navitem"><Link to="/products">Products</Link></li>
                     </ul>
                     </div><div className="botaomobile">
                         <button onClick={menuShow}><img src ={MobileButton} alt='' className="imgbotao"/></button>
