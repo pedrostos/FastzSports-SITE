@@ -20,7 +20,7 @@ function Navbar(){
                     <div className="menu">
                     <ul>
                         <li className="navitem"><Link to="/">Inicio</Link></li>
-                        <li className="navitem"><Link to="/">Produtos</Link></li>
+                        <li className="navitem"><Link to="/products">Produtos</Link></li>
                         <li className="navitem"><Link to="/">Contato</Link></li>
                     </ul>
                     </div><div className="botaomobile">
