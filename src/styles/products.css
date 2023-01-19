@@ -7,6 +7,15 @@
     flex-wrap: wrap;
     justify-content: center;
     flex: 0 0;
+    max-width: 1920px;
+}
+
+.containerMae {
+    display: flex;
+    width: 100%;
+    max-width: 1366px;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
 .titleProduct {
@@ -43,9 +52,16 @@
 
 
 .img {
-    width: 70%;
-    height: 80%;
     top: 0;
     justify-content: center;
     display: flex;
+}
+
+
+@media (max-width: 700px) {
+    .product {
+        width: 150px;
+        height: 12em;
+        margin: 3%;
+    }
 }
