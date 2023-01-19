@@ -17,8 +17,8 @@ function Home() {
                     <FaFacebook className='face' />
                 </div>
             </div>
-
         </div>
+
         
         
         </>
