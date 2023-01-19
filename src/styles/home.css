@@ -26,7 +26,7 @@
 
 .texto2 {
     justify-content: center;
-    margin-top: 40%;
+    margin-top: 50%;
     display: flex;
     flex-wrap: wrap;
     font-size: 80px;
@@ -80,18 +80,18 @@
     margin-top: 30%;
     display: flex;
     flex-wrap: wrap;
-    font-size: 30px;
+    font-size: 40px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
 .insta {
-    font-size: 50px;
+    font-size: 60px;
     margin: 40px;
     cursor: pointer;
 }
 
 .face {
-    font-size: 50px;
+    font-size: 60px;
     margin: 40px;
     cursor: pointer;
 }
@@ -125,9 +125,9 @@
     
     .texto2 {
         justify-content: center;
-        margin-top: 50%;
+        margin-top: 80%;
         display: flex;
-        font-size: 40px;
+        font-size: 50px;
         font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     }
     
@@ -168,10 +168,10 @@
     
     .texto2 {
         justify-content: center;
-        margin-top: 30%;
+        margin-top: 60%;
         display: flex;
         flex-wrap: wrap;
-        font-size: 50px;
+        font-size: 70px;
         font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     }
     
