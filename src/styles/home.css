@@ -26,7 +26,7 @@
 
 .texto2 {
     justify-content: center;
-    margin-top: 50%;
+    margin-top: 40%;
     display: flex;
     flex-wrap: wrap;
     font-size: 80px;
@@ -125,7 +125,7 @@
     
     .texto2 {
         justify-content: center;
-        margin-top: 80%;
+        margin-top: 60%;
         display: flex;
         font-size: 50px;
         font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -168,7 +168,7 @@
     
     .texto2 {
         justify-content: center;
-        margin-top: 60%;
+        margin-top: 30%;
         display: flex;
         flex-wrap: wrap;
         font-size: 70px;
