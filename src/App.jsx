@@ -1,28 +1,27 @@
 import React from 'react'
 import { useState } from 'react'
-import './styles/App.css'
-import Navbar from './navbar.jsx'
-import {BrowserRouter as Router, Routes, Route} from 'react-router-dom'
-import Home from './home.jsx'
-import Footer from './footer.jsx'
-import Products from './products.jsx'
+import Navbar from './Navbar/navbar.jsx'
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
+import Home from './Home/home.jsx'
+import Footer from './Footer/footer.jsx'
+import Products from './Products/products.jsx'
 
 function App() {
 
-  return ( 
-      <>
+  return (
+    <>
       <Router>
         <Navbar />
-          <Routes>
+        <Routes>
           <Route exact path="/" element={<Home />} > </Route>
           <Route path="/products" element={<Products />} > </Route>
-          </Routes>
-          <Footer />
+        </Routes>
+        <Footer />
       </Router>
-      
-      
-      
-      </>
+
+
+
+    </>
 
   )
 }

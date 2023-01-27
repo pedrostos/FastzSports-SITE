@@ -1,5 +1,5 @@
 import { FaInstagram, FaWhatsapp } from 'react-icons/fa'
-import './styles/footer.css'
+import './footer.css'
 import { Link } from 'react-router-dom'
 
 
@@ -9,7 +9,7 @@ function Footer() {
             <span>
                 FASTZ SPORTS &copy;
             </span>
-            
+
             <ul>
                 <li><FaInstagram className="instaf" /></li>
                 <li><FaWhatsapp className="facef" /></li>
